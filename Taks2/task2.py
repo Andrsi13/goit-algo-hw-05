@@ -22,8 +22,8 @@ def binary_search(arr, target):
         return (iterations, arr[low])
 
 # Приклад використання:
-arr = [0.1, 0.3, 0.5, 0.7, 0.9]
-target = 0.6
+arr = [0.1, 0.3, 0.4, 0.6, 0.7, 0.9]
+target = 0.5
 result = binary_search(arr, target)
 print("Кількість ітерацій:", result[0])
 print("Верхня межа:", result[1])
